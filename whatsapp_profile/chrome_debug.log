@@ -1,0 +1,20 @@
+[3576:2944:0731/175124.582:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[7748:18412:0731/175124.869:INFO:third_party\webrtc\rtc_base\cpu_info.cc:57] Available number of cores: 8
+[18168:384:0731/175124.900:INFO:third_party\webrtc\rtc_base\cpu_info.cc:57] Available number of cores: 8
+[12624:8820:0731/175125.215:VERBOSE1:components\viz\service\main\viz_main_impl.cc:86] VizNullHypothesis is disabled (not a warning)
+[17676:10624:0731/175125.646:INFO:third_party\webrtc\rtc_base\cpu_info.cc:57] Available number of cores: 8
+[11688:992:0731/175125.724:INFO:third_party\webrtc\rtc_base\cpu_info.cc:57] Available number of cores: 8
+[3576:2944:0731/175126.041:INFO:CONSOLE:163] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yC/r/KU33N-QrTUs.js (163)
+[3968:9108:0731/175126.385:INFO:third_party\webrtc\rtc_base\cpu_info.cc:57] Available number of cores: 8
+[3576:2944:0731/175137.070:INFO:CONSOLE:76] "Uncaught (in promise) Error: no status data returned for user", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/J1cvVFvJik0.js (76)
+[3576:2944:0731/175137.084:INFO:CONSOLE:76] "Uncaught (in promise) Error: no status data returned for user", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/J1cvVFvJik0.js (76)
+[3576:2944:0731/175153.665:INFO:CONSOLE:76] "Uncaught (in promise) Error: no status data returned for user", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/J1cvVFvJik0.js (76)
+[3576:2944:0731/175153.674:INFO:CONSOLE:76] "Uncaught (in promise) Error: no status data returned for user", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/J1cvVFvJik0.js (76)
+[3576:2944:0731/175204.293:INFO:CONSOLE:289] "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently", source: https://static.whatsapp.net/rsrc.php/v4imjv4/yR/l/en_GB-j/vxgk_IncfGfux_Mn6YHiBtPyesZnsAgrgcmcgfZ2Brznq3Nj8ZVQldtkC6bHF_OqwsfDr4pDVfCO5hIWbqUAkJYZF0gU3_u2EY0qH1VV5yliYy_EA3W_Lak_ZZ9IzwtgQT7vwAYxe6dXvD09LVLy5afHoi_t38JmoSrHFr1iHiY5jgsSJxyPkUk5pfdQ4SidZXR76XA3zguu2xFsUYAJLFAwf-05.js (289)
+[3576:10896:0731/175214.263:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[3576:2944:0731/175227.878:INFO:CONSOLE:76] "Uncaught (in promise) Error: no status data returned for user", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/J1cvVFvJik0.js (76)
+[3576:2944:0731/175227.885:INFO:CONSOLE:76] "Uncaught (in promise) Error: no status data returned for user", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/J1cvVFvJik0.js (76)
+[3576:10896:0731/175237.214:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[3576:2944:0731/175239.052:INFO:CONSOLE:289] "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently", source: https://static.whatsapp.net/rsrc.php/v4imjv4/yR/l/en_GB-j/vxgk_IncfGfux_Mn6YHiBtPyesZnsAgrgcmcgfZ2Brznq3Nj8ZVQldtkC6bHF_OqwsfDr4pDVfCO5hIWbqUAkJYZF0gU3_u2EY0qH1VV5yliYy_EA3W_Lak_ZZ9IzwtgQT7vwAYxe6dXvD09LVLy5afHoi_t38JmoSrHFr1iHiY5jgsSJxyPkUk5pfdQ4SidZXR76XA3zguu2xFsUYAJLFAwf-05.js (289)
+[12628:7780:0731/175250.299:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[12628:7780:0731/175250.299:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

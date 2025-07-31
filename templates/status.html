@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Status - WhatsApp Automation</title>
+  <meta http-equiv="refresh" content="10"> <!-- Auto-refresh every 10 seconds -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-2xl mx-auto py-16 px-6 text-center">
+    <h1 class="text-3xl font-bold mb-6">📊 Message Sending Status</h1>
+
+    {% if status %}
+      <div class="bg-white p-6 rounded shadow space-y-4">
+        <p class="text-lg font-semibold text-green-600">✅ Successfully sent: {{ status.success }}</p>
+        <p class="text-lg font-semibold text-red-600">❌ Failed to send: {{ status.failed }}</p>
+        {% if status.running %}
+          <p class="text-blue-500">⏳ Sending in progress...</p>
+        {% else %}
+          <p class="text-green-500">✔️ Sending complete.</p>
+        {% endif %}
+
+        <a href="/" class="inline-block mt-6 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
+          🔁 Send Another Batch
+        </a>
+      </div>
+    {% else %}
+      <p class="text-gray-600">No status available. Please start a new session.</p>
+    {% endif %}
+  </div>
+</body>
+</html>
