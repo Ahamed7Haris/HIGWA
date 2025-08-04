@@ -1,0 +1,7 @@
+Flask
+werkzeug
+pandas
+pyperclip
+selenium
+webdriver-manager
+fsspec
