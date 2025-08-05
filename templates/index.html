@@ -1,50 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>HIG NumberWA</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <title>WhatsApp Automation</title>
 </head>
-<body class="bg-gray-50 text-gray-800">
-  <div class="max-w-7xl mx-auto py-10 px-4">
-    <h1 class="text-3xl font-bold text-center mb-6">📋 HIG NumberWA</h1>
-
-    <form action="/" method="POST" enctype="multipart/form-data" class="bg-white p-6 rounded-lg shadow space-y-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
-          <label class="block font-semibold mb-1">📁 Upload CSV File (Optional)</label>
-          <input type="file" name="contacts" accept=".csv" class="w-full border border-gray-300 rounded p-2">
-        </div>
-
-        <div>
-          <label class="block font-semibold mb-1">📞 Or Type Phone Numbers (one per line)</label>
-          <textarea name="typed_numbers" rows="6" placeholder="+91xxxxxxxxxx" class="w-full border border-gray-300 rounded p-2"></textarea>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div>
-          <label class="block font-semibold mb-1">🖼 Upload Images (JPG/PNG)</label>
-          <input type="file" name="images" accept="image/*" multiple class="w-full border border-gray-300 rounded p-2">
-        </div>
-
-        <div>
-          <label class="block font-semibold mb-1">📝 Upload Message (.txt) [Optional]</label>
-          <input type="file" name="message_file" accept=".txt" class="w-full border border-gray-300 rounded p-2">
-        </div>
-      </div>
-
-      <div>
-        <label class="block font-semibold mb-1 mt-4">✍️ Or Type Message</label>
-        <textarea name="typed_message" rows="6" placeholder="Type your message here..." class="w-full border border-gray-300 rounded p-3"></textarea>
-      </div>
-
-      <div class="text-center">
-        <button type="submit" class="bg-blue-600 text-white px-8 py-2 rounded hover:bg-blue-700 text-lg font-semibold">
-          🚀 Send WhatsApp Messages
-        </button>
-      </div>
-    </form>
-  </div>
+<body>
+    <h1>📲 WhatsApp Message Sender</h1>
+    <a href="/login">Login & Scan QR</a><br>
+    <a href="/send">Send Messages</a>
 </body>
 </html>

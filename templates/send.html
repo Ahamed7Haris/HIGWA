@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send WhatsApp Messages</title>
+</head>
+<body>
+    <h2>📨 Send Messages</h2>
+    <form action="/send" method="post" enctype="multipart/form-data">
+        <label>Upload Contacts CSV (with PhoneNumber column):</label><br>
+        <input type="file" name="contacts" required><br><br>
+
+        <label>Select Image:</label><br>
+        <input type="file" name="image" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
